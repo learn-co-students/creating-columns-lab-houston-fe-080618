@@ -12,10 +12,16 @@ body, html {
   width: 80%;
   max-width: 600px;
   min-width: 400px;
-  padding: 10px;
-  margin: 10px auto;
+padding: 10px;
+margin: 10px auto;  
+height:600px;
+ 
 }
-
+.column {
+width:30%;
+float: left;
+  }
+  
 h4 {
   width: fit-content;
   display: inline-block;
@@ -32,7 +38,7 @@ img:hover {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-}
+  }
 
 .indifferent {
   border: 1px solid #aaaa00;
@@ -49,3 +55,23 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
+.small {
+height: 100%;
+width: 100%;
+
+}
+.medium {
+height: 200%;
+width: 200%;
+}
+.large {
+  height: 300%;
+width: 300%;
+}
+
+.clearfix:after  {
+  content: "Bubba Pig";
+  display: block;
+}
+
+
